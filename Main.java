@@ -14,6 +14,6 @@ import java.util.LinkedHashSet;
 public class Main {
     public static void main(String[] args) throws IOException {
         LinkedHashSet<Route> a=new LinkedHashSet<>();
-        ReadCommand.ReadCommand(OpenFile.fileOpen_csv("args[0]",a),a);
+        ReadCommand.ReadCommand(OpenFile.fileOpen_csv(args[0],a),a);
         }}
 
