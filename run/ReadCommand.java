@@ -35,7 +35,7 @@ public class ReadCommand {
             System.out.print(">");
 
             try {
-                String s = in.nextLine();
+                String s =System.console().readLine();
                 read.read(s);
             } catch (NoSuchElementException e) {
                 System.console().readLine();
